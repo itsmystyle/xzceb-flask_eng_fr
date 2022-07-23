@@ -1,0 +1,2 @@
+from machinetranslation.e2f_translator_function import englishToFrench
+from machinetranslation.f2e_translator_function import frenchToEnglish
