@@ -1,4 +1,4 @@
-from translator import language_translator
+from machinetranslation.translator import language_translator
 
 
 def englishToFrench(englishText):
@@ -6,5 +6,4 @@ def englishToFrench(englishText):
         text=englishText, model_id="en-fr"
     ).get_result()
     frenchText = translation["translations"][0]["translation"]
-    import pdb; pdb.set_trace
     return frenchText

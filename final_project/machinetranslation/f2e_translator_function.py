@@ -1,4 +1,4 @@
-from translator import language_translator
+from machinetranslation.translator import language_translator
 
 
 def frenchToEnglish(frenchText):
